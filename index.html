@@ -1,407 +1,180 @@
-
-
 <!DOCTYPE html>
-
 <html lang="en">
-
 <head>
-
   <meta charset="UTF-8">
-
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+  <title>Generational Variation in Kunwinjku Word-Initial Engma</title>
   <style>
-
-    * {
-
-      box-sizing: border-box;
-
-      margin: 0;
-
-      padding: 0;
-
-      font-family: Arial, sans-serif;
-
-    }
-
-    
-
+    /* Global styles */
     body {
-
-      background: #f5f5f5;
-
+      background: #e8f0fe; /* Soft blue background for the page */
+      color: #333; /* Dark text for readability */
+      font-family: Arial, sans-serif;
       padding: 20px;
-
+      margin: 0;
     }
-
-    
 
     .poster {
-
       max-width: 900px;
-
-      width: 100%;
-
       background: white;
-
       display: grid;
-
-      grid-template-columns: 1fr;
-
+      grid-template-columns: 250px 1fr 250px;
       gap: 20px;
-
       padding: 20px;
-
-      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-
-    }
-
-    
-
-    @media (min-width: 768px) {
-
-      .poster {
-
-        grid-template-columns: 250px 1fr 250px;
-
-      }
-
-    }
-
-    
-
-    .main-finding {
-
-      background: #f8f9fa;
-
-      padding: 20px;
-
+      margin: auto;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
       border-radius: 8px;
-
-      text-align: center;
-
-      display: flex;
-
-      flex-direction: column;
-
-      justify-content: center;
-
-      align-items: center;
-
     }
 
-    
-
+    /* Left Column */
     .side-column {
-
-      display: flex;
-
-      flex-direction: column;
-
-      gap: 20px;
-
-    }
-
-    
-
-    .section {
-
-      background: #f8f9fa;
-
+      background-color: #f0f4fc; /* Light blue to signal start */
       padding: 15px;
-
       border-radius: 8px;
-
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
     }
 
-    
+    /* Center Column */
+    .main-finding {
+      background: #f8f9fa;
+      padding: 20px;
+      border-radius: 8px;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
 
     h1 {
-
       font-size: 24px;
-
       color: #1a237e;
-
       margin-bottom: 10px;
-
       font-weight: bold;
-
     }
-
-    
 
     h2 {
-
       font-size: 20px;
-
       color: #1a237e;
-
       margin-bottom: 8px;
-
       font-weight: bold;
-
     }
 
-    
-
-    .main-finding h1 {
-
-      font-size: 28px;
-
-      margin-bottom: 20px;
-
-    }
-
-    
-
-    p {
-
+    p, ul {
       font-size: 14px;
-
-      line-height: 1.4;
-
+      line-height: 1.6;
       margin-bottom: 8px;
-
     }
-
-    
 
     .data-table {
-
       width: 100%;
-
       border-collapse: collapse;
-
       margin: 10px 0;
-
       font-size: 12px;
-
     }
-
-    
 
     .data-table th, .data-table td {
-
       border: 1px solid #ddd;
-
       padding: 4px;
-
       text-align: left;
-
     }
-
-    
 
     .data-table th {
-
       background: #f0f0f0;
-
     }
-
-    
 
     .author-info {
-
       text-align: center;
-
       margin-bottom: 10px;
-
       font-size: 14px;
-
     }
 
-    
-
-    .phonetic {
-
-      font-family: "Times New Roman", Times, serif;
-
+    .highlight {
+      background: #ffeb3b; /* Highlighting key sections in yellow */
+      padding: 5px;
+      border-radius: 3px;
     }
 
+    .start-icon {
+      font-size: 20px;
+      color: #1a237e;
+      margin-bottom: 10px;
+      text-align: center;
+    }
   </style>
-
 </head>
-
 <body>
-
   <div class="poster">
-
     <!-- Left Column -->
-
     <div class="side-column">
-
+      <div class="start-icon">👉 Start Here</div>
       <div class="section">
-
         <h2>Introduction</h2>
-
-        <p>Word-initial engma deletion is increasingly observed in younger Kunwinjku speakers, challenging traditional phonotactic constraints and expanding into previously restricted domains.</p>
-
+        <p class="highlight">Word-initial engma deletion is increasingly observed in younger Kunwinjku speakers, challenging traditional phonotactic constraints.</p>
       </div>
-
       
-
       <div class="section">
-
         <h2>Method</h2>
-
         <p>Multi-generational elicitation sessions were conducted with:</p>
-
         <ul>
-
           <li>2 elder speakers</li>
-
           <li>2 younger speakers</li>
-
           <li>Visual stimulus kit</li>
-
           <li>Natural conversation recording</li>
-
         </ul>
-
       </div>
-
-      
-
-      <div class="section">
-
-        <h2>Previous Research</h2>
-
-        <p>Marley (2022) hypothesized that engma deletion was restricted to closed-class morphemes. Recent observations suggest this constraint is weakening among younger speakers.</p>
-
-      </div>
-
     </div>
-
     
-
     <!-- Center Column -->
-
     <div class="main-finding">
-
       <div class="author-info">
-
         <p>Matthew Pearson</p>
-
         <p>Eastern College Australia</p>
-
         <p>LN805: Linguistic Field Methods</p>
-
       </div>
-
       <h1>Generational Variation in Kunwinjku Word-Initial Engma</h1>
-
-      <p style="font-size: 18px; margin: 20px 0;">Key Finding: Word-initial engma deletion (<span class="phonetic">/ŋ/→/∅/</span>) is systematic among younger speakers, even in traditionally restricted contexts.</p>
-
+      <p style="font-size: 18px; margin: 20px 0;">Key Finding: Word-initial engma deletion (<span class="phonetic">/ŋ/→/∅/</span>) is systematic among younger speakers.</p>
       <div class="section" style="width: 100%;">
-
         <h2>Sample Results</h2>
-
         <table class="data-table">
-
           <tr>
-
             <th>Word</th>
-
             <th>Elder</th>
-
             <th>Younger</th>
-
           </tr>
-
           <tr>
-
             <td>ngarrire 'we go'</td>
-
             <td>/ŋaɾire/</td>
-
             <td>/aɾire/</td>
-
           </tr>
-
           <tr>
-
             <td>ngabba 'father'</td>
-
             <td>/ŋapba/</td>
-
             <td>/apba/</td>
-
           </tr>
-
-          <tr>
-
-            <td>ngalyod 'rainbow serpent'</td>
-
-            <td>/ŋalyod/</td>
-
-            <td>/alyod/</td>
-
-          </tr>
-
         </table>
-
       </div>
-
     </div>
-
     
-
     <!-- Right Column -->
-
     <div class="side-column">
-
       <div class="section">
-
         <h2>Results</h2>
-
         <p>1. Consistent engma deletion in younger speakers</p>
-
         <p>2. Preservation in elder speech</p>
-
-        <p>3. Dialect awareness among speakers</p>
-
-        <p>4. Extension to sacred terms</p>
-
       </div>
-
       
-
       <div class="section">
-
         <h2>Discussion</h2>
-
         <p>The study reveals:</p>
-
         <ul>
-
           <li>Systematic generational variation</li>
-
           <li>Changing phonotactic constraints</li>
-
-          <li>Complex interplay between age and dialect</li>
-
         </ul>
-
       </div>
-
-      
-
-      <div class="section">
-
-        <h2>Future Research</h2>
-
-        <p>• Expand participant age groups</p>
-
-        <p>• Investigate dialectal variations</p>
-
-        <p>• Document orthographic implications</p>
-
-      </div>
-
     </div>
-
   </div>
-
 </body>
-
 </html>
